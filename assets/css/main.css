@@ -2853,3 +2853,97 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/*--------------------------------------------------------------
+# LD8: Paslaugų lentelė, sąrašai ir medija
+--------------------------------------------------------------*/
+.services-extra {
+  background-color: var(--surface-color);
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.services-extra h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.services-extra h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.services-extra .table-wrap {
+  overflow-x: auto;
+}
+
+.price-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--default-color);
+}
+
+.price-table caption {
+  caption-side: bottom;
+  padding-top: 12px;
+  font-size: 14px;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+}
+
+.price-table th,
+.price-table td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+}
+
+.price-table thead th {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 80%);
+  color: var(--heading-color);
+  font-weight: 600;
+}
+
+.price-table td:last-child,
+.price-table th:last-child {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.price-table tbody tr:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 92%);
+}
+
+.tech-list,
+.steps-list {
+  padding-left: 22px;
+  margin-bottom: 0;
+}
+
+.tech-list li,
+.steps-list > li {
+  margin-bottom: 10px;
+}
+
+.tech-list li::marker,
+.steps-list li::marker {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+.steps-list ul {
+  margin-top: 8px;
+  padding-left: 20px;
+}
+
+.steps-list ul li {
+  margin-bottom: 4px;
+}
+
+.media-video {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #000;
+}
